@@ -1,0 +1,25 @@
+# Windows/macOS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor and local tool settings
+.vscode/
+.idea/
+
+# Runtime and temporary files
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+!.env.example
+
+# Creator OS exported backups may contain personal content data
+creator-os-backup-*.json
+
+# Optional development dependencies and environments
+node_modules/
+.venv/
+venv/
+
