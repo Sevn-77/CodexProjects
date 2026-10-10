@@ -51,4 +51,5 @@ node --test tests/creator-os.test.cjs
 
 - 没有 `npm install` 或构建步骤：项目无 npm 依赖，也没有构建配置。
 - 浏览器回归已覆盖新增、编辑、删除、筛选、刷新后持久化和输入转义；导出及外部热点链接流程尚未做真实浏览器验证。
-- 未测量覆盖率，未执行 GitHub Actions 工作流。
+- 未测量覆盖率。GitHub Actions 已于 2026-10-10 在 push 事件中成功运行，7 项通过、0 项失败、0 项跳过；[查看工作流记录](https://github.com/Sevn-77/CodexProjects/actions/runs/38060238413)。
+
